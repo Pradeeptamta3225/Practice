@@ -30,6 +30,11 @@ h1{
     color: orange;
 }
 
+h1:hover{
+    transform: scale(2.5);
+    transition: 7s;
+}
+
 
 .gallery{
     display: flex;
