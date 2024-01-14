@@ -68,7 +68,7 @@ h1:hover{
 
 
 .card:hover{
-transform: scale(1.03);
+transform: scale(1.09);
 filter: drop-shadow(0 0 10px #333);
 transition: 0.3s;
 
