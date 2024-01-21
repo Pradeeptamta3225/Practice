@@ -6,3 +6,12 @@ function Myfunction(p1,p2){
 
 let result = Myfunction(5,4);
 document.getElementById("demo").innerHTML = result;
+
+
+let result = Myfunction(8,6);
+
+function Myfunction(a,b){
+    return a*b;
+}
+
+document.getElementById("demo").innerHTML = result;
