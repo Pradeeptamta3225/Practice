@@ -1,17 +1,23 @@
 //Function
 
-function Myfunction(p1,p2){
-    return p1 * p2 
+// function Myfunction(p1,p2){
+//     return p1 * p2 
+// }
+
+// let result = Myfunction(5,4);
+// document.getElementById("demo").innerHTML = result;
+
+
+// let result = Myfunction(8,6);
+
+// function Myfunction(a,b){
+//     return a*b;
+// }
+
+const person = {
+    firstName: "Pradeep",
+    lastName: "Tamta",
+    address: "Tanakpur"
 }
 
-let result = Myfunction(5,4);
-document.getElementById("demo").innerHTML = result;
-
-
-let result = Myfunction(8,6);
-
-function Myfunction(a,b){
-    return a*b;
-}
-
-document.getElementById("demo").innerHTML = result;
+alert(person.firstName);
