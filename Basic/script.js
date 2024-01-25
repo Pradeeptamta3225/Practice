@@ -14,10 +14,19 @@
 //     return a*b;
 // }
 
+// const person = {
+//     firstName: "Pradeep",
+//     lastName: "Tamta",
+//     address: "Tanakpur"
+// }
+
+// alert(person.firstName);
+
+
 const person = {
-    firstName: "Pradeep",
-    lastName: "Tamta",
-    address: "Tanakpur"
+    name: "Pradeep",
+    age: "50"
 }
 
-alert(person.firstName);
+alert(person.name + " is " + person.age);
+
