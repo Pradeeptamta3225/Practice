@@ -23,10 +23,31 @@
 // alert(person.firstName);
 
 
-const person = {
-    name: "Pradeep",
-    age: "50"
+// const person = {
+//     name: "Pradeep",
+//     age: "50"
+// }
+
+// alert(person.name + " is " + person.age);
+
+//stack(primitive) and heap(Non-primitive) 
+
+let myName = "Pradeep Tamta"
+
+let alternateName = myName
+alternateName = "Tamta"
+
+console.log(myName);
+console.log(alternateName);
+
+
+let userOne = {
+  email: "pradeep@gmail.com",
+  age: 24
 }
 
-alert(person.name + " is " + person.age);
+let userTwo = userOne;
 
+userTwo.email = "tamta@gmail.com";
+console.log(userOne);
+console.log(userTwo);
