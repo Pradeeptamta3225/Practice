@@ -59,8 +59,12 @@ let repoCount = 50
 
 console.log(`Hello My Name is ${name} and my repocount is ${repoCount}`);
 
-let gameName = new String("Pradeep");
+let gameName = new String(" Pradeep ");
 console.log(gameName[0]);
 console.log(gameName.length);
 console.log(gameName.charAt(3));
 console.log(gameName.toUpperCase())
+
+
+console.log(gameName.slice());
+console.log(gameName.trim())
